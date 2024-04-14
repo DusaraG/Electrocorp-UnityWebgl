@@ -1,0 +1,4 @@
+repository "EnergyCorp@duusra@cloud"
+  path "/"
+    br "/main"
+    co "/main"
