@@ -1,9 +1,9 @@
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine.Networking;
 using UnityEngine;
 using TMPro;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class InputHandler : MonoBehaviour
 {
@@ -14,6 +14,7 @@ public class InputHandler : MonoBehaviour
     public TMP_InputField email;
     public TMP_InputField phoneNumber;
     public Button submitButton;
+    public TMPro.TextMeshProUGUI errorText;
     public void Start()
     {
         submitButton.enabled = false;
@@ -46,16 +47,21 @@ public class InputHandler : MonoBehaviour
         Debug.Log(GameEntry.jwt);
         using (UnityWebRequest www = UnityWebRequest.Put("http://20.15.114.131:8080/api/user/profile/update", json))
         {   
-            www.SetRequestHeader("Authorization", "Bearer " + "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJvdmVyc2lnaHRfZzEyIiwiaWF0IjoxNzEzMDgxOTI1LCJleHAiOjE3MTMxMTc5MjV9.SmWBoS3IhP8hOEZ8IYcnj2IlqTG0HJa6fChDtSqHb55jAou6m5B4M8R9KP9KDkSxA2354YVFE3eESwoYO9rvJw");
+            www.SetRequestHeader("Authorization", "Bearer " + GameEntry.jwt);//if unauthorized error,check the jwt token.
             www.SetRequestHeader("Content-Type", "application/json");
+            yield return www.SendWebRequest();
             yield return www;
             if (www.error != null)
             {
                 Debug.Log(www.error);
+                errorText.gameObject.SetActive(true);
+                errorText.text = "Error: " + www.error;
+
             }
             else
-            {
-                Debug.Log(www.result);
+            {   
+                //now the player profile is properly filled,redirect to the questionnare
+                SceneManager.LoadScene("Untitled");
             }
         }
     }
@@ -70,3 +76,4 @@ public class InputHandler : MonoBehaviour
         public string phoneNumber;
     }
 }
+//unity editor version 2022.3.22f1
