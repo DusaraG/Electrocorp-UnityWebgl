@@ -1,0 +1,56 @@
+.App {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  font-style:italic;
+  padding: 5px;
+}
+
+body {
+  background: url("./decorations/background/background.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  z-index: -1;
+}
+
+.first-card h1{
+  font-size: 30px;
+  font-weight: bold;
+  color: #fff;
+  text-shadow: 0 0 2px rgba(0, 0, 0, 0.3);
+
+}
+
+.start-quiz-btn {
+  background-color: aquamarine;
+  font-size:xx-large;
+  padding: 15px;
+  width:50%;
+  border-radius: 60px;
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  left:25%;
+  border-width: 5px;
+  border-color:silver;
+
+}
+
+.start-quiz-btn:hover {
+  background-color:cyan;
+  text-transform: uppercase;
+}
+
+button{
+  width:80px;
+  cursor:pointer;
+  text-align:center;
+  padding:5px;
+  font-style:italic;
+  font-weight:bold;
+  border-radius: 30px;
+}
+
+
+

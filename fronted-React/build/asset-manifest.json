@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/static/css/main.2e59cb41.css",
+    "main.js": "/static/js/main.2ed93c49.js",
+    "static/media/quiz-music-158558.mp3": "/static/media/quiz-music-158558.f48a3130c8b23b48ead9.mp3",
+    "static/media/cute-level-up-3-189853.mp3": "/static/media/cute-level-up-3-189853.3d0f9d16165b7a7b1a7d.mp3",
+    "static/media/button-124476.mp3": "/static/media/button-124476.54ece3c086c35cd3be74.mp3",
+    "static/media/background.png": "/static/media/background.1c3651244d06221cd83b.png",
+    "static/media/tap-notification-180637.mp3": "/static/media/tap-notification-180637.26371742bcb64f25256e.mp3",
+    "index.html": "/index.html",
+    "main.2e59cb41.css.map": "/static/css/main.2e59cb41.css.map",
+    "main.2ed93c49.js.map": "/static/js/main.2ed93c49.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2e59cb41.css",
+    "static/js/main.2ed93c49.js"
+  ]
+}
