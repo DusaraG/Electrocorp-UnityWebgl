@@ -4,7 +4,7 @@ Welcome to our Unity game! This project is an engaging simulation where players 
 
 ## Scene and Script Overview
 
-The relevant scenes can be found under GOGREENV8/Assets/Scenes and the scripts can be found under GOGREENV8/Assets/Scripts.
+The relevant scenes can be found under GameEnvironment/Scenes and the scripts can be found under GameEnvironment/Scripts.
 
 1. **Main Menu V2**
    - Description: This scene serves as the entry point of the game. Players can press play to start the game. The script used in this scene is the MainMenu.cs. On pressing play, players are redirected to the next scene which is the Game Entry Scene. 
