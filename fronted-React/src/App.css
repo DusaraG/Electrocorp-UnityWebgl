@@ -1,0 +1,148 @@
+.App {
+  text-align: left;
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+
+
+}
+
+.auth-form-container,.login-form,.register-form{
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+
+.auth-form-container {
+
+  padding: 2rem;
+  border-radius: 0.25rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+; 
+}
+
+
+label{
+  color: white;
+  text-align: left;
+  padding: 0.05rem 0;
+}
+
+::placeholder {
+  color: red;
+  opacity: 20; /* Firefox */
+}
+
+
+input{
+  color: white;
+  margin:0.5rem 0;
+  padding: 0.5rem 0.5rem;
+  border: 2px solid #007bff;
+  border-radius: 1rem;
+  background-color:rgba(0, 0, 0, 0.1);
+}
+input:hover{
+  transform: scale(1.1);
+}
+
+button:hover, .submit-btn:hover{
+  background: linear-gradient(200deg, #9383C5, #56E3FA);
+  transform: scale(1.05);
+  
+}
+
+button:active{
+  transform: translateX(4px);
+  /* box-shadow: 0 10px 1px 0 rgba(0, 0, 0, 0.1); */
+
+}
+
+.submit-btn{
+  display:block;
+  cursor: pointer;
+  width:100%;
+  border-radius: 30px;
+  border:none ;
+  padding:10px;
+  font-size: 35px;
+  color:white;  
+  background: linear-gradient(100deg, #9383C5, #56E3FA);
+  margin-bottom: 5px;
+  margin-top: 5px;
+
+}
+
+.Reg-title{
+  color:white;
+  font: italic bold 36px/30px Georgia, serif;
+  margin: 3rem 0;
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+/* .log-to-reg-btn{
+  display:block;
+  cursor: pointer;
+  width:100%;
+  border-radius: 30px;
+  border: none;
+  padding:20px;
+  font-size: 20px;
+  color:white;  
+  background: linear-gradient(90deg, #9383C5, #56E3FA);
+  margin-bottom: 5px;
+  margin-top: 5px;
+
+} */
+
+/* log and reg button was seperately defined incase of changing imergencies */
+/* .reg-to-log-btn{
+  display:block;
+  cursor: pointer;
+  width:100%;
+  border-radius: 30px;
+  border: none;
+  padding:20px;
+  font-size: 20px;
+  color:white;  
+  background: linear-gradient(90deg, #9383C5, #56E3FA);
+  margin-bottom: 5px;
+  margin-top: 5px;
+
+} */
+/* .reg-to-log--btn:hover{
+  transform: scale(1.1);
+  
+} */
+
+.gender-selection{
+  color: white;
+  cursor: pointer;
+  width:100% ;
+  border-radius: 30px;
+  border-color: #007bff;
+  margin-bottom: 5px;
+  margin-top: 5px;
+  background-color: rgba(0, 0, 0, 0.1);
+
+}
+
+.gender-selection:hover{
+  transform: scale(1.1);
+}
+
+.drop{
+  color: black;
+  cursor: pointer;
+  width:100% ;
+  border-radius: 30px;
+  border-color: #007bff;
+  margin-bottom: 5px;
+  margin-top: 5px;
+
+}
