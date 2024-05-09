@@ -1,5 +1,5 @@
 # Team Dyson - Unity Game
-
+Note: If the endpoints are not working it may be due to the backend server not being run at the moment.(servers are hosted locally and ngrok is used give access from the cloud).In that case please inform us, so that we can turn on the servers.
 Welcome to our Unity game called EnergyCorp! This project is an engaging simulation where players can delve into the world of energy conservation within an office environment. Embark on an exciting journey where you'll explore ways to save energy, tackle challenges, and unravel the mysteries of sustainable office practices. Below, you'll discover details about the game's scenes, frontend, backend, and how to navigate through them.
 
 ## Scene and Script Overview
