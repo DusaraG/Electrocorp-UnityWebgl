@@ -1,6 +1,6 @@
-# Unity Game - README
+# Team Dyson - Unity Game
 
-Welcome to our Unity game! This project is an engaging simulation where players can delve into the world of energy conservation within an office environment. Embark on an exciting journey where you'll explore ways to save energy, tackle challenges, and unravel the mysteries of sustainable office practices. Below, you'll discover details about the game's scenes, frontend, backend, and how to navigate through them.
+Welcome to our Unity game called EnergyCorp! This project is an engaging simulation where players can delve into the world of energy conservation within an office environment. Embark on an exciting journey where you'll explore ways to save energy, tackle challenges, and unravel the mysteries of sustainable office practices. Below, you'll discover details about the game's scenes, frontend, backend, and how to navigate through them.
 
 ## Scene and Script Overview
 
