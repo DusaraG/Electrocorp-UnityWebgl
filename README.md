@@ -1,5 +1,5 @@
 # Team Dyson - Unity Game
-Note: If the endpoints are not working it may be due to the backend server not being run at the moment.(servers are hosted locally and ngrok is used give access from the cloud).In that case please inform us, so that we can turn on the servers.  
+Note: If the endpoints are not working it may be due to the backend server not being run at the moment (servers are hosted locally and ngrok is used give access from the cloud). In that case please inform us, so that we can turn on the servers.  
 
 Welcome to our Unity game called EnergyCorp! This project is an engaging simulation where players can delve into the world of energy conservation within an office environment. Embark on an exciting journey where you'll explore ways to save energy, tackle challenges, and unravel the mysteries of sustainable office practices. Below, you'll discover details about the game's scenes, frontend, backend, and how to navigate through them.
 
@@ -22,8 +22,12 @@ The relevant scenes can be found under GameEnvironment/Scenes and the scripts ca
 5. **Player Profile**
    - Description: In this scene, the player will input their details. Error handling has been implemented to check that the fields are all filled with the correct formats. The script for this is InputHandler.cs. After filling, the player can press submit and move into the ground floor.
 
-6. **Ground Floor**
+6. **Floor 01**
    - Description: The ground floor is the first floor in which the game starts. Here there are 4 bars on the side with the energy bar getting a boost from the score and time taken. The script for the energy bar is EnergyBar.cs. Further, the details the player submitted can be edited using a canvas. The script for editing player details is APIHandler.cs.
+  
+ 7. **Floor 02**
+    
+ 8. **Meeting Floor**
 
 ## Frontend Overview
 
