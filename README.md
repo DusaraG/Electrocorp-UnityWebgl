@@ -24,7 +24,10 @@ The relevant scenes can be found under GameEnvironment/Scenes and the scripts ca
 
 6. **Game Floors**
    - Description: The game gives the player an option of 3 floors, the first floor (which is the first scene that is loaded), the server room and the meeting floor. Each floor has been implemented as a different scene which the player can switch between by using the map function at the bottom right of the screen. Note that in the case of overconsumption, the player will not be permitted to switch scenes.
+
      ![image](https://github.com/DusaraG/Electrocorp-UnityWebgl/assets/66544479/9fc37b35-c054-4ec4-82f8-26a56b902499)
+
+     ![image](https://github.com/DusaraG/Electrocorp-UnityWebgl/assets/66544479/7a027f12-8473-41f6-b7b5-59da1d742277)
 
    - Each floor has similar game functionalities with the difference being in the floor design. The functionalities are discussed below.
 
