@@ -6,6 +6,7 @@ Welcome to our Unity game called EnergyCorp! This project is an engaging simulat
 1. Assets folder link
 - https://drive.google.com/file/d/1kZWN4htVZ5zeb0w9ygu-xxhJOcrAn4Ke/view?usp=sharing
 2. Build zip file can be found in repository with file name Build_Phase_03.zip
+3. Full Presentation can be viewed in https://drive.google.com/file/d/1y0F-taOfC-aEAsny0S8G6YIukofWAugQ/view?usp=sharing
 
 
 ## Scene and Script Overview
