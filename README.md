@@ -73,9 +73,7 @@ The relevant scenes can be found under GameEnvironment/Scenes and the scripts ca
   
      3 clothing options have been given for the player and the character will change his clothing on the press of the "y" key.
   
-     ![image](https://github.com/DusaraG/Electrocorp-UnityWebgl/assets/66544479/dbcd4fda-d6a3-475a-a930-4644d532e14d)  
-     ![image](https://github.com/DusaraG/Electrocorp-UnityWebgl/assets/66544479/60160676-1087-49f6-851f-776ad7a7c11f)
-     ![image](https://github.com/DusaraG/Electrocorp-UnityWebgl/assets/66544479/6282c766-cde2-4622-a892-a1f21fd7d405)
+     ![image](https://github.com/DusaraG/Electrocorp-UnityWebgl/assets/66544479/dbcd4fda-d6a3-475a-a930-4644d532e14d) ![image](https://github.com/DusaraG/Electrocorp-UnityWebgl/assets/66544479/60160676-1087-49f6-851f-776ad7a7c11f) ![image](https://github.com/DusaraG/Electrocorp-UnityWebgl/assets/66544479/6282c766-cde2-4622-a892-a1f21fd7d405)
      
         g. Player Profile
 
