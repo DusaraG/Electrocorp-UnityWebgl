@@ -22,12 +22,19 @@ The relevant scenes can be found under GameEnvironment/Scenes and the scripts ca
 5. **Player Profile**
    - Description: In this scene, the player will input their details. Error handling has been implemented to check that the fields are all filled with the correct formats. The script for this is InputHandler.cs. After filling, the player can press submit and move into the ground floor.
 
-6. **Floor 01**
-   - Description: The ground floor is the first floor in which the game starts. Here there are 4 bars on the side with the energy bar getting a boost from the score and time taken. The script for the energy bar is EnergyBar.cs. Further, the details the player submitted can be edited using a canvas. The script for editing player details is APIHandler.cs.
-  
- 7. **Floor 02**
-    
- 8. **Meeting Floor**
+6. **Game Floors**
+   - Description: The game gives the player an option of 3 floors, the first floor (which is the first scene that is loaded), the server room and the meeting floor. Each floor has been implemented as a different scene which the player can switch between by using the map function at the bottom right of the screen. Note that in the case of overconsumption, the player will not be permitted to switch scenes.
+     ![image](https://github.com/DusaraG/Electrocorp-UnityWebgl/assets/66544479/9fc37b35-c054-4ec4-82f8-26a56b902499)
+
+   - Each floor has similar game functionalities with the difference being in the floor design. The functionalities are discussed below.
+
+        a. Player Status Bar
+        b. Mart
+        c. Equipment usage
+        d. Non-player Characters
+        e. Managers
+        f. Player clothing
+        g. Player Profile
 
 ## Frontend Overview
 
