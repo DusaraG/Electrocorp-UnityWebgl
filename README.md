@@ -155,7 +155,7 @@ The backend of our game is powered by Java Spring Boot. Here's an overview of ke
     - Endpoint to return the score and time taken when the player ID is provided
     - Endpoint to reset player information
   
-## Frontend Overview
+## Data Management
 
 Within the game, to facilitate data storage between scenes and player sessions, PlayerPrefs, Unity's built-in key-value storage, has been used. The data stored are,
 
