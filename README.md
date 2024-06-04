@@ -34,19 +34,32 @@ The relevant scenes can be found under GameEnvironment/Scenes and the scripts ca
         a. Player Status Bar
               This bar denotes the players current level, their budget, energy usage and company performance.
      
-                 - The energy usage is the total of the energy used by the equipment of the floor and the energy saved through manager tasks (more details shared below).
+           - The energy usage is the total of the energy used by the equipment of the
+           floor and the energy saved through manager tasks (more details shared below).
      
-                 - The budget will increase by 1 point every 5 seconds while the energy is in an underconsuming state and decrease by 1 point every 5 seconds if in the over consuming state. The budget and the maximum budget attainable will also increase during level ups.
+           - The budget will increase by 1 point every 5 seconds while the energy is
+           in an underconsuming state and decrease by 1 point every 5 seconds if in
+           the over consuming state. The budget and the maximum budget attainable will
+           also increase during level ups.
      
-                 - The current level will increase through experience points gained by tasks such as completing manager tasks. As the player increases his level, more experience points would be needed to proceed to the next level.
+           - The current level will increase through experience points gained by tasks
+           such as completing manager tasks. As the player increases his level, more
+           experience points would be needed to proceed to the next level.
      
-                 - The company performance is the stock price of the company which would increase by buying equipment from the mart. When in the overconsuming state, the stock price would reduce by 1 point every 30 seconds.
+           - The company performance is the stock price of the company which would
+           increase by buying equipment from the mart. When in the overconsuming state,
+           the stock price would reduce by 1 point every 30 seconds.
      
      ![image](https://github.com/DusaraG/Electrocorp-UnityWebgl/assets/66544479/adfd4165-3b12-4902-9ba9-bd0c78324bcc)
      
         b. Mart
 
-           The mart can be opened by clicking on the shop icon at the bottom right corner of the screen. Once opened, the player can use their collected budget so far to purchase items from the mart. The items can be found under 4 sections, laptops, office equipment, power systems, and clothes. On buying power systems, the maximum value of the energy bar will increase by the price of the item purchased times the quantity.
+           The mart can be opened by clicking on the shop icon at the bottom right
+           corner of the screen. Once opened, the player can use their collected budget
+           so far to purchase items from the mart. The items can be found under 4
+           sections, laptops, office equipment, power systems, and clothes. On buying
+           power systems, the maximum value of the energy bar will increase by the price
+           of the item purchased times the quantity.
   
      ![image](https://github.com/DusaraG/Electrocorp-UnityWebgl/assets/66544479/84890807-fa45-4d16-b918-47799d784586)
   
@@ -54,15 +67,29 @@ The relevant scenes can be found under GameEnvironment/Scenes and the scripts ca
      
         c. Equipment usage
      
-              In each floor, there are mainly 3 appliances, the doors, air conditioners and light bulbs that can be controlled using the Z key. The doors will open and close when the Z key is pressed and the ACs and bulbs can be switched on or turned off by the Z key. The AC and bulbs are the main source of energy consumption in the game. If too many of these are turned on, the cummulative energy consumption will result in an overconsumption, affecting the players budget and the company performance.
+              In each floor, there are mainly 3 appliances, the doors, air conditioners
+           and light bulbs that can be controlled using the Z key. The doors will open
+           and close when the Z key is pressed and the ACs and bulbs can be switched on
+           or turned off by the Z key. The AC and bulbs are the main source of energy
+           consumption in the game. If too many of these are turned on, the cummulative
+           energy consumption will result in an overconsumption, affecting the players
+           budget and the company performance.
      
         d. Non-player Characters
   
-              Each floor has a number of Non-Player characters (NPC) that will become active as per the consumption value obtained from the module API. i.e, if there is an increase in consumption in the API, the number of employees in the room will increase (exact number shown in the top left hand corner of the game) and along with the activation of an NPC, the bulbs and ACs around the NPC will also activate, pushing the energy state towards an overconsumption.
+              Each floor has a number of Non-Player characters (NPC) that will become
+           active as per the consumption value obtained from the module API. i.e, if
+           there is an increase in consumption in the API, the number of employees in
+           the room will increase (exact number shown in the top left hand corner of
+           the game) and along with the activation of an NPC, the bulbs and ACs around
+           the NPC will also activate, pushing the energy state towards an overconsumption.
      
         e. Managers
   
-              Each floor has managers in them that will ask the player questions based on energy saving tasks or company information. If the player chooses the correct answer, there will be a decrease in energy consumption and an increase in the experience gained. These manager tasks are activated and deactivated at random.
+              Each floor has managers in them that will ask the player questions based on
+           energy saving tasks or company information. If the player chooses the correct
+           answer, there will be a decrease in energy consumption and an increase in the
+           experience gained. These manager tasks are activated and deactivated at random.
      
         f. Player clothing
         g. Player Profile
