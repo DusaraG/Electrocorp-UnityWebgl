@@ -32,7 +32,17 @@ The relevant scenes can be found under GameEnvironment/Scenes and the scripts ca
    - Each floor has similar game functionalities with the difference being in the floor design. The functionalities are discussed below.
 
         a. Player Status Bar
+              This bar denotes the players current level, their budget, energy usage and company performance.
+                 - The energy usage is the total of the energy used by the equipment of the floor and the energy saved through manager tasks (more details shared below).
+                 - The budget will increase by 1 point every 5 seconds while the energy is in an underconsuming state and decrease by 1 point every 5 seconds if in the over consuming state. The budget and the maximum budget attainable will also increase during level ups.
+                 - The current level will increase through experience points gained by tasks such as completing manager tasks. As the player increases his level, more experience points would be needed to proceed to the next level.
+                 - The company performance is the stock price of the company which would increase by buying equipment from the mart. When in the overconsuming state, the stock price would reduce by 1 point every 30 seconds.
+     
+     ![image](https://github.com/DusaraG/Electrocorp-UnityWebgl/assets/66544479/adfd4165-3b12-4902-9ba9-bd0c78324bcc)
+     
         b. Mart
+              The mart can be opened by clicking on the shop icon at the bottom right corner of the screen. Once opened, the player can use their collected budget so far to purchase items from the 
+     
         c. Equipment usage
         d. Non-player Characters
         e. Managers
