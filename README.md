@@ -1,6 +1,13 @@
 # Team Dyson - Unity Game
 Welcome to our Unity game called EnergyCorp! This project is an engaging simulation where players can delve into the world of energy conservation within an office environment. Embark on an exciting journey where you'll explore ways to save energy, tackle challenges, and unravel the mysteries of sustainable office practices. Below, you'll discover details about the game's scenes, frontend, backend, and how to navigate through them.
 
+## Phase 03 Evaluation Material
+
+1. Assets folder link
+- https://drive.google.com/file/d/1kZWN4htVZ5zeb0w9ygu-xxhJOcrAn4Ke/view?usp=sharing
+2. Build zip file can be found in repository with file name Build_Phase_03.zip
+
+
 ## Scene and Script Overview
 
 The relevant scenes can be found under GameEnvironment/Scenes and the scripts can be found under GameEnvironment/Scripts.
