@@ -154,6 +154,20 @@ The backend of our game is powered by Java Spring Boot. Here's an overview of ke
     - Endpoint to check if the player has attempted the questionnaire
     - Endpoint to return the score and time taken when the player ID is provided
     - Endpoint to reset player information
+  
+## Frontend Overview
+
+Within the game, to facilitate data storage between scenes and player sessions, PlayerPrefs, Unity's built-in key-value storage, has been used. The data stored are,
+
+   - Total Experience
+   - Next Level Experience
+   - Current Level
+   - Number of Money
+   - Maximum Money
+   - Maximum Energy
+   - Stock Value
+
+The initialisation of these values can be found in the Quiz.cs script.
 
 ## Credits
 
