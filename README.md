@@ -1,6 +1,4 @@
 # Team Dyson - Unity Game
-Note: If the endpoints are not working it may be due to the backend server not being run at the moment (servers are hosted locally and ngrok is used give access from the cloud). In that case please inform us, so that we can turn on the servers.  
-
 Welcome to our Unity game called EnergyCorp! This project is an engaging simulation where players can delve into the world of energy conservation within an office environment. Embark on an exciting journey where you'll explore ways to save energy, tackle challenges, and unravel the mysteries of sustainable office practices. Below, you'll discover details about the game's scenes, frontend, backend, and how to navigate through them.
 
 ## Scene and Script Overview
@@ -128,6 +126,7 @@ The Quiz has been deployed on Netlify and developed using Javascript, CSS, and H
     - We prioritize security by utilizing JSON Web Tokens (JWT) for authorization, ensuring secure access to game features and resources.
 
 ## Backend Overview
+Database and Springboot application, both are deployed in amazon web services RDS and EC2 respectively(at least until the evaluation)
 
 The backend of our game is powered by Java Spring Boot. Here's an overview of key components:
 
