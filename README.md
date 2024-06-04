@@ -52,6 +52,8 @@ The relevant scenes can be found under GameEnvironment/Scenes and the scripts ca
      ![image](https://github.com/DusaraG/Electrocorp-UnityWebgl/assets/66544479/ff7edbd3-e930-4943-9111-502bf706e26a)
      
         c. Equipment usage
+              In each floor, there are mainly 3 appliances, the doors, air conditioners and light bulbs that can be controlled using the Z key. The doors will open and close when the Z key is pressed and the ACs and bulbs can be switched on or turned off by the Z key. The AC and bulbs are the main source of energy consumption in the game. If too many of these are turned on, the cummulative energy consumption will result in an overconsumption, affecting the players budget and the company performance.
+     
         d. Non-player Characters
         e. Managers
         f. Player clothing
