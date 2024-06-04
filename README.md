@@ -58,8 +58,12 @@ The relevant scenes can be found under GameEnvironment/Scenes and the scripts ca
      
         d. Non-player Characters
   
-              Each floor has a number of Non-Player characters that will become active as per 
+              Each floor has a number of Non-Player characters (NPC) that will become active as per the consumption value obtained from the module API. i.e, if there is an increase in consumption in the API, the number of employees in the room will increase (exact number shown in the top left hand corner of the game) and along with the activation of an NPC, the bulbs and ACs around the NPC will also activate, pushing the energy state towards an overconsumption.
+     
         e. Managers
+  
+              Each floor has managers in them that will ask the player questions based on energy saving tasks or company information. If the player chooses the correct answer, there will be a decrease in energy consumption and an increase in the experience gained. These manager tasks are activated and deactivated at random.
+     
         f. Player clothing
         g. Player Profile
 
