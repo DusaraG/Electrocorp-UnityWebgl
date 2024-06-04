@@ -52,10 +52,10 @@ The relevant scenes can be found under GameEnvironment/Scenes and the scripts ca
      
         b. Mart
 
-           The mart can be opened by clicking on the shop icon at the bottom right corner of the screen. Once opened, the player can
-           use their collected budget so far to purchase items from the mart. The items can be found under 4 sections, laptops, office
-           equipment, power systems, and clothes. On buying power systems, the maximum value of the energy bar will increase by the
-           price of the item purchased times the quantity.
+     The mart can be opened by clicking on the shop icon at the bottom right corner of the screen. Once opened, the player can
+     use their collected budget so far to purchase items from the mart. The items can be found under 4 sections, laptops, office
+     equipment, power systems, and clothes. On buying power systems, the maximum value of the energy bar will increase by the
+     price of the item purchased times the quantity.
   
      ![image](https://github.com/DusaraG/Electrocorp-UnityWebgl/assets/66544479/84890807-fa45-4d16-b918-47799d784586)
   
