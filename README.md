@@ -45,16 +45,20 @@ The relevant scenes can be found under GameEnvironment/Scenes and the scripts ca
      ![image](https://github.com/DusaraG/Electrocorp-UnityWebgl/assets/66544479/adfd4165-3b12-4902-9ba9-bd0c78324bcc)
      
         b. Mart
-              The mart can be opened by clicking on the shop icon at the bottom right corner of the screen. Once opened, the player can use their collected budget so far to purchase items from the mart. The items can be found under 4 sections, laptops, office equipment, power systems, and clothes. On buying power systems, the maximum value of the energy bar will increase by the price of the item purchased times the quantity.
+
+           The mart can be opened by clicking on the shop icon at the bottom right corner of the screen. Once opened, the player can use their collected budget so far to purchase items from the mart. The items can be found under 4 sections, laptops, office equipment, power systems, and clothes. On buying power systems, the maximum value of the energy bar will increase by the price of the item purchased times the quantity.
   
      ![image](https://github.com/DusaraG/Electrocorp-UnityWebgl/assets/66544479/84890807-fa45-4d16-b918-47799d784586)
   
      ![image](https://github.com/DusaraG/Electrocorp-UnityWebgl/assets/66544479/ff7edbd3-e930-4943-9111-502bf706e26a)
      
         c. Equipment usage
+     
               In each floor, there are mainly 3 appliances, the doors, air conditioners and light bulbs that can be controlled using the Z key. The doors will open and close when the Z key is pressed and the ACs and bulbs can be switched on or turned off by the Z key. The AC and bulbs are the main source of energy consumption in the game. If too many of these are turned on, the cummulative energy consumption will result in an overconsumption, affecting the players budget and the company performance.
      
         d. Non-player Characters
+  
+              Each floor has a number of Non-Player characters that will become active as per 
         e. Managers
         f. Player clothing
         g. Player Profile
