@@ -36,7 +36,7 @@ The relevant scenes can be found under GameEnvironment/Scenes and the scripts ca
    - Description: In this scene, the player will input their details. Error handling has been implemented to check that the fields are all filled with the correct formats. The script for this is InputHandler.cs. After filling, the player can press submit and move into the ground floor.
 
 6. **Game Floors**
-   - Description: The game gives the player an option of 3 floors, the first floor (which is the first scene that is loaded), the server room and the meeting floor. Each floor has been implemented as a different scene which the player can switch between by using the map function at the bottom right of the screen. Note that in the case of overconsumption, the player will not be permitted to switch scenes.
+   - Description: The game gives the player an option of 3 floors, the first floor (which is the first scene that is loaded), the server room and the meeting floor. Each floor has been implemented as a different scene which the player can switch between by using the map function at the bottom right of the screen. Note that in the case of overconsumption, the player will not be permitted to switch floors.
 
      ![image](https://github.com/DusaraG/Electrocorp-UnityWebgl/assets/66544479/9fc37b35-c054-4ec4-82f8-26a56b902499)
 
@@ -44,20 +44,20 @@ The relevant scenes can be found under GameEnvironment/Scenes and the scripts ca
 
    - Each floor has similar game functionalities with the difference being in the floor design. The functionalities are discussed below.
 
-        a. Player Status Bar
+        a. Player Status Bars
 
-     This bar denotes the players current level, their budget, energy usage and company performance.
+     These bars denote the players their budget, energy usage, company performance(and current level), and stock value.
      
         - The energy usage is taken by the total of the energy used by the equipment of the floor and subtracting the energy saved through manager tasks (more details shared below).
         - The budget will increase by 1 point every 5 seconds while the energy is in a normal state and decrease by 1 point every 5 seconds if in the over consuming state. The budget and the maximum budget attainable will also increase during level ups.
         - The current level will increase through experience points gained by tasks such as completing manager tasks. As the player increases his level, more experience points would be needed to proceed to the next level.
-        - The company performance is the stock price of the company which would increase by buying equipment from the mart. When in the overconsuming state, the stock price would reduce by 1 point every 30 seconds.
+        - The stock value of the company which will be used for ranking in the leaderboard will increase when buying laptops and decorations from the mart (representing how improving company resources lead to better reputation). However laptops and decorations increase energy consumption, increasing the chance for overconsumption. When in the overconsuming state, the stock price would reduce by 1 point every 5 seconds.
      
      ![image](https://github.com/DusaraG/Electrocorp-UnityWebgl/assets/66544479/adfd4165-3b12-4902-9ba9-bd0c78324bcc)
      
         b. Mart
 
-     The mart can be opened by clicking on the shop icon at the bottom right corner of the screen. Once opened, the player can use their collected budget so far to purchase items from the mart. The items can be found under 4 sections, laptops, office equipment, power systems, and clothes. On buying power systems, the maximum value of the energy bar will increase by the price of the item purchased times the quantity.
+     The mart can be opened by clicking on the shop icon at the bottom right corner of the screen. Once opened, the player can use their collected budget so far to purchase items from the mart. The items can be found under 4 sections, laptops, decorations, power systems, and clothes. On buying power systems, the maximum value of the energy bar will increase by the price of the item purchased times the quantity.
   
      ![image](https://github.com/DusaraG/Electrocorp-UnityWebgl/assets/66544479/84890807-fa45-4d16-b918-47799d784586)
   
@@ -65,14 +65,14 @@ The relevant scenes can be found under GameEnvironment/Scenes and the scripts ca
      
         c. Equipment usage
      
-     In each floor, there are mainly 3 appliances, the doors, air conditioners and light bulbs that can be controlled using the Z key. The doors will open and close when the Z key is pressed and the ACs and bulbs can be switched on or turned off by the Z key. The AC and bulbs are the main source of energy consumption in the game. If too many of these are turned on, the cummulative energy consumption will result in an overconsumption, affecting the players budget and the company performance.
+     In each floor, there are mainly 3 appliances, the doors, air conditioners and light bulbs that can be controlled using the Z key. The doors will open and close when the Z key is pressed and the ACs and bulbs can be switched on or turned off by the Z key. The AC and bulbs are the main source of energy consumption in the game. If too many of these are turned on, the cummulative energy consumption might result in an overconsumption, affecting the players budget and the company stock value.
   
      ![image](https://github.com/DusaraG/Electrocorp-UnityWebgl/assets/66544479/e798347e-9926-446a-9fe0-c14f0b34e63d)
 
      
         d. Non-player Characters
   
-     Each floor has a number of Non-Player characters (NPC) that will become active as per the consumption value obtained from the module API. i.e, if there is an increase in consumption in the API, the number of employees in the room will increase (exact number shown in the top left hand corner of the game) and along with the activation of an NPC, the bulbs and ACs around the NPC will also activate, pushing the energy state towards an overconsumption.
+     Each floor has a number of Non-Player characters (NPC) that will become active as per the rate of increase in the consumption value obtained from the module API. i.e, if there is an increase in the rate of increase in consumption in the API, the number of employees in the room will increase (exact number shown in the top left hand corner of the game) and along with the activation of an NPC, the bulbs and ACs around the NPC will also activate, pushing the energy state towards an overconsumption.
   
      ![image](https://github.com/DusaraG/Electrocorp-UnityWebgl/assets/66544479/7ce52a17-12c6-4953-97b8-dfc9f118aa73)
      
