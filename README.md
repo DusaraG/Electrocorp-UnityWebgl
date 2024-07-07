@@ -1,10 +1,10 @@
 # Team Dyson - Unity Game
 Welcome to our Unity game called EnergyCorp! This project is an engaging simulation where players can delve into the world of energy conservation within an office environment. Embark on an exciting journey where you'll explore ways to save energy, tackle challenges, and unravel the mysteries of sustainable office practices. Below, you'll discover details about the game's scenes, frontend, backend, and how to navigate through them.
 
-##Instructions to play
+## Instructions to play
 Use arrow keys to move the player.To interact with doors, move through dialogues etc use the 'Z' key. To change clothing press 'Y'
 
-##Leaderboad overview
+## Leaderboad overview
 Leaderboard can be accessed by clicking and icon at the bottom right on the game 
 
 Players are ranked according to the stock value of the company.
